@@ -22,13 +22,11 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
-	"runtime"
 	"strconv"
 	"strings"
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/json-iterator/go"
 )
 
 var (
@@ -488,21 +486,21 @@ func SaveAsHtml(htmlData HtmlData, projectPath, savePath, timestamp, tpl string)
 func displayReport(filePath string) {
 	fileURL := fmt.Sprintf("file://%v", filePath)
 	log.Println("To display report", fileURL, "in browser")
-	var err error
-	switch runtime.GOOS {
-	case "linux":
-		err = callSystemCmd("xdg-open", fileURL)
-	case "darwin":
-		err = callSystemCmd("open", fileURL)
-	case "windows":
-		r := strings.NewReplacer("&", "^&")
-		err = callSystemCmd("cmd", "/c", "start", r.Replace(fileURL))
-	default:
-		err = fmt.Errorf("Unsupported platform,please view report file.")
-	}
-	if err != nil {
-		log.Println(err)
-	}
+	// var err error
+	// switch runtime.GOOS {
+	// case "linux":
+	// 	err = callSystemCmd("xdg-open", fileURL)
+	// case "darwin":
+	// 	err = callSystemCmd("open", fileURL)
+	// case "windows":
+	// 	r := strings.NewReplacer("&", "^&")
+	// 	err = callSystemCmd("cmd", "/c", "start", r.Replace(fileURL))
+	// default:
+	// 	err = fmt.Errorf("Unsupported platform,please view report file.")
+	// }
+	// if err != nil {
+	// 	log.Println(err)
+	// }
 }
 
 // callSystemCmd call system command opens a new browser window pointing to url.
