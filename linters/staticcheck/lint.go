@@ -1,5 +1,5 @@
 // Package staticcheck contains a linter for Go source code.
-package staticcheck // import "github.com/360EntSecGroup-Skylar/goreporter/linters/staticcheck"
+package staticcheck // import "github.com/imyoudu/goreporter/linters/staticcheck"
 
 import (
 	"fmt"
@@ -16,12 +16,12 @@ import (
 	"sync"
 	texttemplate "text/template"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/lint"
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/ssa"
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/staticcheck/functions"
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/staticcheck/gcsizes"
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/staticcheck/internal/sharedcheck"
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/staticcheck/vrp"
+	"github.com/imyoudu/goreporter/linters/simpler/lint"
+	"github.com/imyoudu/goreporter/linters/simpler/ssa"
+	"github.com/imyoudu/goreporter/linters/staticcheck/functions"
+	"github.com/imyoudu/goreporter/linters/staticcheck/gcsizes"
+	"github.com/imyoudu/goreporter/linters/staticcheck/internal/sharedcheck"
+	"github.com/imyoudu/goreporter/linters/staticcheck/vrp"
 
 	"golang.org/x/tools/go/ast/astutil"
 )

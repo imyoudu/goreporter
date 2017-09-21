@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/deadcode"
+	"github.com/imyoudu/goreporter/linters/deadcode"
 )
 
 type StrategyDeadCode struct {

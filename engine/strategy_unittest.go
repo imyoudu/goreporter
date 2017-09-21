@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/unittest"
+	"github.com/imyoudu/goreporter/linters/unittest"
 	"github.com/golang/glog"
 	"github.com/json-iterator/go"
 )

@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simplecode"
+	"github.com/imyoudu/goreporter/linters/simplecode"
 )
 
 type StrategySimpleCode struct {

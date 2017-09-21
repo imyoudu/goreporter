@@ -1,10 +1,10 @@
 ![goreporter](./logo.png)
 
-# goreporter [![Version Status](https://img.shields.io/badge/v3.0-dev-orange.svg)](https://github.com/360EntSecGroup-Skylar/goreporter/releases/tag/version3.0)
+# goreporter [![Version Status](https://img.shields.io/badge/v3.0-dev-orange.svg)](https://github.com/imyoudu/goreporter/releases/tag/version3.0)
 
-[![Current Release](https://img.shields.io/github/release/360EntSecGroup-Skylar/goreporter.svg)](https://github.com/360EntSecGroup-Skylar/goreporter/releases/latest)
+[![Current Release](https://img.shields.io/github/release/360EntSecGroup-Skylar/goreporter.svg)](https://github.com/imyoudu/goreporter/releases/latest)
 [![Build Status](https://travis-ci.org/360EntSecGroup-Skylar/goreporter.svg?branch=master)](https://travis-ci.org/360EntSecGroup-Skylar/goreporter)
-[![GoDoc](https://godoc.org/github.com/360EntSecGroup-Skylar/goreporter?status.svg)](https://godoc.org/github.com/360EntSecGroup-Skylar/goreporter)
+[![GoDoc](https://godoc.org/github.com/imyoudu/goreporter?status.svg)](https://godoc.org/github.com/imyoudu/goreporter)
 [![License](https://img.shields.io/badge/LICENSE-Apache2.0-ff69b4.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 A Golang tool that does static analysis, unit testing, code review and generate code quality report. This is a tool that concurrently runs a whole bunch of those linters and normalizes their output to a report:
@@ -26,7 +26,7 @@ A Golang tool that does static analysis, unit testing, code review and generate 
 
 ## Supported linters
 
-- [unittest](https://github.com/360EntSecGroup-Skylar/goreporter/tree/master/linters/unittest) - Golang unit test status.
+- [unittest](https://github.com/imyoudu/goreporter/tree/master/linters/unittest) - Golang unit test status.
 - [deadcode](https://github.com/tsenart/deadcode) - Finds unused code.
 - [gocyclo](https://github.com/alecthomas/gocyclo) - Computes the cyclomatic complexity of functions.
 - [varcheck](https://github.com/opennota/check) - Find unused global variables and constants.
@@ -40,7 +40,7 @@ A Golang tool that does static analysis, unit testing, code review and generate 
 - [misspell](https://github.com/client9/misspell) - Correct commonly misspelled English words... quickly.
 - [countcode](https://github.com/bytbox/sloc) - Count lines and files of project.
 - [interfacer](https://github.com/mvdan/interfacer) - Suggest narrower interfaces that can be used.
-- [depth](https://github.com/360EntSecGroup-Skylar/goreporter/tree/feature-3.0/linters/depth) - Count the maxdepth of go functions.
+- [depth](https://github.com/imyoudu/goreporter/tree/feature-3.0/linters/depth) - Count the maxdepth of go functions.
 - [flen](https://github.com/lafolle/flen) - Flen provides stats on functions/methods lengths in a Golang package.
 
 ## Template
@@ -64,7 +64,7 @@ A Golang tool that does static analysis, unit testing, code review and generate 
 Install goreporter (see above).
 
 ```
-$ go get -u github.com/360EntSecGroup-Skylar/goreporter
+$ go get -u github.com/imyoudu/goreporter
 ```
 
 ## Run it:

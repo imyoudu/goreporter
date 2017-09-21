@@ -3,7 +3,7 @@ package engine
 import (
 	"strconv"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/countcode"
+	"github.com/imyoudu/goreporter/linters/countcode"
 )
 
 type StrategyCountCode struct {

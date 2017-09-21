@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/ssa"
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/ssa/ssautil"
+	"github.com/imyoudu/goreporter/linters/simpler/ssa"
+	"github.com/imyoudu/goreporter/linters/simpler/ssa/ssautil"
 	"golang.org/x/tools/go/buildutil"
 	"golang.org/x/tools/go/loader"
 )

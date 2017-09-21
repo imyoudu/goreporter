@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/spellcheck"
+	"github.com/imyoudu/goreporter/linters/spellcheck"
 )
 
 type StrategySpellCheck struct {

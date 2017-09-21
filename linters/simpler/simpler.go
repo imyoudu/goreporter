@@ -1,7 +1,7 @@
 package simpler
 
 import (
-	"github.com/360EntSecGroup-Skylar/goreporter/linters/simpler/lint/lintutil"
+	"github.com/imyoudu/goreporter/linters/simpler/lint/lintutil"
 )
 
 func Simpler(projectPath map[string]string) []string {
